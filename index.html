@@ -1,173 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JJ Fitness</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bajrang Gym</title>
+<link rel="stylesheet" href="style.css">
 </head>
-<link rel="stylesheet" href="css/style.css">
-<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
- <style> 
-/*     CSS Reset */
-    body{
-        font-family: 'Baloo Bhai 2', cursive;
-        margin: 0px;
-        padding: 0px;
-        background-image: url('img/wp2639566.jpg'); 
-        background-repeat:no-repeat;
-        color: black;
-
-    }
-
-    .header {
-        background-color: white;
-    } 
-
-     .left{
-        display: inline-block;
-        background-color: white;
-        position: absolute;
-        left:34px;
-        top: 20px;    
-    } 
-
-     .left img{
-        width: 103px;
-        filter: invert(100%); 
-    } 
-
-    .left div {
-        text-align: center;
-        font-size: 18px;
-        line-height: 19px;
-    }
-    .mid {
-        display: block;
-        width: 33%;
-        margin: 20px auto;
-        border: 2px solid green; 
-     }
-
-    .right {
-        position: absolute;
-        right:34px;
-        top: 20px;
-        display: inline-block;
-        border: 2px solid yellow; 
-     }
-
-    .navbar {
-        display: inline-block;
-    }
-
-    .navbar li {
-        display: inline-block;
-        font-size: 15px;
-    }
-
-     .navbar li a {
-        color: white;
-        text-decoration: none;
-        padding: 34px 20px;
-    
-    }
-
-    .navbar li a:hover {
-        text-decoration: underline;
-        
-    }
-
-    .btn {
-        font-family: 'Baloo Bhai 2', cursive;
-        margin: 0px 9px;
-        background: lightgrey;
-        color:black;
-        padding: 4px 14px;
-        border: 2px solid grey;
-        border-radius: 10px;
-        font-size: 15px;
-        cursor: pointer;
-    }
-
-    .btn:hover {
-        background-color: black;
-        color: white
-    } 
-
-     .container {
-        position: absolute;
-        right: 34px;
-        border: 2px solid white;
-        color: white;
-        margin: 100px 80px;
-        padding:72px;
-        width: 33%; 
-        border-radius: 20px;
-    }
-    .form-group input { 
-        font-family: 'Baloo Bhai 2', cursive;
-        text-align: center;
-        display: block;
-        width: 376px;
-        padding: 1px; 
-        border: 2px solid black;
-        margin: 13px auto;
-        font-size: 20px;
-        border-radius: 8px;
-    } 
-
-     .container h1 {
-        text-align: center;
-    }
-    .container button {
-        display: block;
-        width: 73%;
-        margin: 20px auto;
-    }   
- </style> 
 <body>
-    <header class="header">
-        <!-- Left box for logo -->
-        <div class="left">
-           <img src="img/04012019-08.jpg" alt="">
-           <div>JJ Fitness</div>
-      
-        </div>
-        <!-- mid box for navbar -->
-        <div class="mid">
-            <ul class="navbar">
-                <li><a href="#" class="active">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Fitness Calculator</a></li>
-                <li><a href="#">Contact Us</a></li> 
-            </ul>
-     
-        </div>
-
-        <!-- Right box for buttons -->
-        <div class="right">
-            <button class="btn">Call Us Now</button>
-            <button class="btn">Email Us</button>
-        </div>
-    </header>
-    <div class="container">
-        <h1>Join the best gym of Mumbai</h1>
-        <form action="noaction.php">
-            <div class="form-group">
-                <input type="text" name="" placeholder="Enter your name">
-            </div>
-            <div class="form-group">
-                <input type="text" name="" placeholder="Enter your age">
-            </div>
-            <div class="form-group">
-                <input type="text" name="" placeholder="Enter your gender">
-            </div>
-            <div class="form-group">
-                <input type="text" name="" placeholder="Enter your locality">
-            </div> 
-            <button class="btn">Submit</button>
-        </form>
+<header>
+<div class="logo-container">
+<img src="logo.jfif" alt="Bajrang Gym Logo" class="logo">
+<span class="gym-name">Bajrang Gym</span>
+</div>
+<nav>
+<ul>
+<li><a href="#about">About Us</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#gallery">Gallery</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+</header>
+<section id="about">
+    <h2>About Us</h2>
+    <div class="about-content">
+    <div class="about-text">
+    <p>Welcome to our state-of-the-art gym, where fitness meets excellence. Our mission is to provide a welcoming and motivating environment for individuals of all fitness levels. Whether you're a beginner or a seasoned athlete, our facility is equipped with the latest technology and amenities to help you achieve your fitness goals.</p>
+    <p>Our team of certified trainers and nutrition experts are dedicated to offering personalized guidance and support. We offer a wide range of classes, from high-intensity interval training (HIIT) to yoga and Pilates, ensuring there's something for everyone.</p>
+    <p>Join us and be part of a community that values health, wellness, and personal growth. Together, we can make your fitness journey enjoyable and rewarding.</p>
     </div>
+    <div class="about-images">
+    <img src="img1.jfif" alt="Gym Equipment" class="about-img">
+    <img src="img2.jfif" alt="Group Class" class="about-img">
+    </div>
+    </div>
+    </section>    
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services-content">
+        <div class="service">
+        <img src="img3.jfif" alt="Personal Training" class="service-img">
+        <h3>Personal Training</h3>
+        <p>Get one-on-one training sessions with our certified trainers to achieve your fitness goals faster and more effectively.</p>
+        </div>
+        <div class="service">
+        <img src="img5.jfif" alt="Group Classes" class="service-img">
+        <h3>Group Classes</h3>
+        <p>Join our group classes for a fun and motivating workout experience. We offer a variety of classes including HIIT, yoga, and Pilates.</p>
+        </div>
+        <div class="service">
+        <img src="img6.jfif" alt="Nutrition Counseling" class="service-img">
+        <h3>Nutrition Counseling</h3>
+        <p>Our nutrition experts provide personalized counseling to help you make healthier food choices and achieve your fitness goals.</p>
+        </div>
+        <div class="service">
+        <img src="img7.jfif" alt="Yoga and Pilates" class="service-img">
+        <h3>Yoga and Pilates</h3>
+        <p>Relax and strengthen your body with our yoga and Pilates classes, suitable for all fitness levels.</p>
+        </div>
+        </div>
+        </section>        
+<section id="gallery">
+<h2>Gallery</h2>
+<div class="gallery">
+<img src="img1.jfif" alt="Gym Equipment" class="gallery-img">
+<img src="img2.jfif" alt="Group Class" class="gallery-img">
+<img src="img3.jfif" alt="Personal Training" class="gallery-img">
+</div>
+</section>
+<section id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-content">
+    <div class="contact-info">
+    <h3>Get in Touch</h3>
+    <p>Address: 123 Fitness Street, Kurla, Maharashtra, India</p>
+    <p>Phone: +91 12345 67890</p>
+    <p>Email: info@newgym.com</p>
+    <p>Opening Hours: Mon-Fri 6:00 AM - 10:00 PM, Sat-Sun 8:00 AM - 8:00 PM</p>
+    </div>
+    <div class="contact-form">
+    <h3>Send Us a Message</h3>
+    <form id="contactForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea>
+    <button type="submit">Submit</button>
+    </form>
+    </div>
+    </div>
+    </section>
+    <footer>
+<p>© 2024 New Gym. All rights reserved.</p>
+</footer>
+<script src="scripts.js"></script>
 </body>
 </html>
